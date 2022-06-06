@@ -19,7 +19,8 @@
 		<repository>
 			<id>package</id>
 			<url>http://localhost:8081/repository/package/
-		<repository>		
+		</repository>
+		<snapshotRepository>
 			<id>snapshots</id>
 			<url>http://localhost:8081/repository/snapshots/
 		</snapshotRepository>		
