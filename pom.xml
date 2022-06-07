@@ -37,9 +37,6 @@
 			<id>Maven-snapshots</id>
 			<url>http://localhost:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
-	        <repository>
-			<id>maven_artifact</id>
-			<url>http://localhost:8081/repository/maven_artifact//</url>
-		</repository>
+	 
   </distributionManagement>
 </project>
