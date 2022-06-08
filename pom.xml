@@ -35,24 +35,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <dependency>
-        <groupId>org.eclipse.jetty</groupId>
-        <artifactId>jetty-jsp</artifactId>
-        <version>9.2.19.v20160908</version>
-        <exclusions>
-                <exclusion>
-                 <groupId>org.glassfish</groupId>
-                 <artifactId>javax.el</artifactId>
-            </exclusion>
-        </exclusions>       
-    </dependency>
-
-     <!-- https://mvnrepository.com/artifact/org.glassfish/javax.el -->
-    <dependency>
-        <groupId>org.glassfish</groupId>
-        <artifactId>javax.el</artifactId>
-        <version>3.0.0</version>
-    </dependency>	
   <distributionManagement>
 
 		
