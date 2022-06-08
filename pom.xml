@@ -6,6 +6,12 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
 	
+<properties>
+<altDeploymentRepository>local-nexus::default::http://nexus/repository/maven-snapshots/</altDeploymentRepository>
+<!--altReleaseDeploymentRepository>local-nexus::default::http://nexus/repository/maven-releases/</altReleaseDeploymentRepository-->
+<!--altSnapshotDeploymentRepository>local-nexus::default::http://nexus/repository/maven-snapshots/</altSnapshotDeploymentRepository-->
+</properties>	
+	
 <build>
     <plugins>
         <plugin>
