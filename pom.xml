@@ -42,14 +42,6 @@
 			<id>nexus_repository</id>
 			<url>http://localhost:8081/repository/nexus_repository/</url>
 		</repository>
-	        <repository>
-			<id>Maven-release</id>
-			<url>http://localhost:8081/repository/maven-release/</url>
-		</repository>
-		<snapshotRepository>
-			<id>Maven-snapshot</id>
-			<url>http://localhost:8081/repository/maven-snapshots/</url>
-		</snapshotRepository>
 	        
 	 
   </distributionManagement>
