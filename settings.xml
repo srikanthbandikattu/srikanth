@@ -3,7 +3,7 @@
           xmlns="http://maven.apache.org/SETTINGS/1.1.0">
     <servers>
         <server>
-            <id>nexus</id>
+            <id>nexus_repository</id>
             <username>admin</username>
             <password>admin123</password>
         </server>
