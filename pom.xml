@@ -4,13 +4,7 @@
   <groupId>nexus_repository</groupId>
   <artifactId>myapp</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
-	
-<properties>
-<altDeploymentRepository>local-nexus::default::http://nexus/repository/maven-snapshots/</altDeploymentRepository>
-<!--altReleaseDeploymentRepository>local-nexus::default::http://nexus/repository/maven-releases/</altReleaseDeploymentRepository-->
-<!--altSnapshotDeploymentRepository>local-nexus::default::http://nexus/repository/maven-snapshots/</altSnapshotDeploymentRepository-->
-</properties>	
+  <version>1.0-SNAPSHOT</version>	
 	
 <build>
     <plugins>
@@ -36,13 +30,15 @@
     </dependency>
   </dependencies>
   <distributionManagement>
+	  
 	        <repository>
-			<id>Maven-releases</id>
-			<url>http://localhost:8081/repository/maven-releases/</url>
+			<id>Maven-release</id>
+			<url>http://localhost:8081/repository/maven-release/</url>
 		</repository>
 		<snapshotRepository>
 			<id>Maven-snapshots</id>
 			<url>http://localhost:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
+	  
   </distributionManagement>
 </project>
